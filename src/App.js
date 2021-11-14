@@ -24,6 +24,7 @@ function App() {
       <Blog />
       <Possibility />
       <WhatGPT3 />
+      <Brand />
       <Footer />
     </div>
   );
