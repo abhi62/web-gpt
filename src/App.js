@@ -1,12 +1,5 @@
-import { Feature, Article, Navbar, Cta, Brand } from "./components";
-import {
-  FeatureBig,
-  Footer,
-  Header,
-  Possibility,
-  WhatGPT3,
-  Blog,
-} from "./containers";
+import { Navbar } from "./components";
+import { Footer, Header } from "./containers";
 
 import "./App.css";
 
@@ -17,14 +10,6 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Feature />
-      <Article />
-      <Cta />
-      <FeatureBig />
-      <Blog />
-      <Possibility />
-      <WhatGPT3 />
-      <Brand />
       <Footer />
     </div>
   );
