@@ -8,18 +8,22 @@ import {
   Blog,
 } from "./containers";
 
+import "./App.css";
+
 function App() {
   return (
     <div className='App'>
-      <Header />
+      <div className='gradient__bg'>
+        <Navbar />
+        <Header />
+      </div>
       <Feature />
       <Article />
-      <Navbar />
       <Cta />
       <FeatureBig />
+      <Blog />
       <Possibility />
       <WhatGPT3 />
-      <Blog />
       <Footer />
     </div>
   );
